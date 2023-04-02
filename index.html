@@ -9,11 +9,22 @@
     <meta name="keywords" content="DOM, BOM" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css" />
-    <title></title>
+    <title>Crear una tarea</title>
 </head>
 <body>
     <header></header>
-    <main> </main>
+    <main> 
+        <section class="container-fluid">
+            <h1 class="text-center">Listado de tareas</h1>
+            <article class="form-group mt-4 w-50">
+                <input type="text" class="form-control" id="tarea" placeholder="Ingrese una tarea">
+              </article>
+            <button type="button" class="btn btn-dark mt-2" id="botonAgregar">Agregar</button>
+            <ul class="list-group mt-4 w-50" id="listaTareas">
+            <!-- Si todo va bien, aqui tienen que entrar los elementos de la lista -->
+            </ul>
+        </section>
+    </main>
     <footer class="bg-dark text-light py-3 text-center">
         <p>&copy;Todos los derechos reservados</p>
     </footer>
